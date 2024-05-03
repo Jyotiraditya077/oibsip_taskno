@@ -1,0 +1,76 @@
+html {
+  scroll-behavior: smooth;
+}
+body {
+  font-family: "Lato", sans-serif;
+  font-family: "Montserrat", sans-serif;
+  padding: 0;
+  margin: 0;
+  background-color: black;
+}
+.container-1 p {
+  text-align: center;
+  font-size: 205%;
+  font-weight: 500;
+  color: aliceblue;
+}
+.video {
+  width: 50vh;
+  display: flex;
+  justify-items: center;
+  margin-top: 0px;
+  justify-content: center;
+}
+.container-2 {
+  margin-top: 20px;
+  padding: 0;
+  width: 100%;
+  position: relative;
+  overflow: hidden;
+  transition: 0.9s;
+}
+.container-2:hover .steveImg {
+  filter: brightness(70%);
+  transition: 0.9s;
+  transform: scale(1.1);
+}
+.container-2:hover .steveText {
+  opacity: 1;
+}
+.steveImg {
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  width: 100%;
+  transition: 0.9s;
+}
+.steveText {
+  position: absolute;
+  top: 40%;
+  left: 20%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+  font-size: 5vh;
+  font-weight: 700;
+  opacity: 0;
+  transition: 0.9s;
+}
+.container-3 {
+  padding: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  font-size: 105%;
+  font-weight: 400;
+  color: aliceblue;
+}
+.footer {
+  padding: 2%;
+  margin-left: 10%;
+  margin-right: 10%;
+  text-align: center;
+  font-size: 105%;
+  font-weight: 400;
+  color: aliceblue;
+}
